@@ -1,0 +1,243 @@
+
+[
+    
+    {
+        "id": "Liverpool",
+        "details": {
+            "fullname": "Liverpool F.C.",
+            "leaderboardName": "LIV",
+            "teamWebsite": "https://www.liverpoolfc.com",
+            "stadium": {
+                "stadiumName": "Anfield",
+                "capacity": 54074
+            }
+        }
+    },
+    {
+        "id": "Spurs",
+        "details":{
+            "fullname": "Tottenham Hotspur",
+            "leaderboardName": "TOT",
+            "teamWebsite": "https://www.tottenhamhotspur.com",
+            "stadium": {
+                "stadiumName": "Tottenham Hotspur Stadium",
+                "capacity": 62303
+            }
+        }
+    },
+    {
+        "id": "Leicester",
+        "details": {
+            "fullname": "Leicester's City",
+            "leaderboardName": "LEI",
+            "teamWebsite": "https://www.lcfc.com",
+            "stadium": {
+                "stadiumName": "King Power Stadium",
+                "capacity": 32261
+            }
+        }
+    },
+    {
+        "id": "Chelsea",
+        "details":{
+            "fullname": "Chelsea F.C.",
+            "leaderboardName": "CHE",
+            "teamWebsite": "https://www.chelseafc.com",
+            "stadium": {
+                "stadiumName": "Stamford Bridge",
+                "capacity": 40834
+            }
+        }
+    },
+    {
+        "id": "Southamton",
+        "details": {
+            "fullname": "Southamton F.C.",
+            "leaderboardName": "SOU",
+            "teamWebsite": "https://www.southamtonfc.com",
+            "stadium": {
+                "stadiumName": "St Mary's Stadium",
+                "capacity": 32384
+            }
+        }
+    },
+    {
+        "id":"Everton",
+        "details": {
+            "fullname": "Everton F.C.",
+            "leaderboardName": "EVE",
+            "teamWebsite": "https://www.evertonfc.com",
+            "stadium": {
+                "stadiumName": "Goodison Park",
+                "capacity": 39414
+            }
+        }
+    },
+    {
+        "id": "Aston Villa",
+        "details": {
+            "fullname": "Aston Villa F.C.",
+            "leaderboardName": "AVL",
+            "teamWebsite": "https://www.avfc.co.uk",
+            "stadium": {
+                "stadiumName": "Villa Park",
+                "capacity": 42719
+            }
+        }
+    },
+    {
+        "id":"Newcastle",
+        "details": {
+            "fullname": "Newcastle United F.C.",
+            "leaderboardName": "NEW",
+            "teamWebsite": "https://www.nufc.co.uk",
+            "stadium": {
+                "stadiumName": "St James' Park",
+                "capacity": 52305
+            }
+        }
+    },
+    {
+        "id":"Wolves",
+        "details": {
+            "fullname": "Wolverhampton Wanderers F.C.",
+            "leaderboardName": "WOL",
+            "teamWebsite": "https://www.wolves.co.uk",
+            "stadium": {
+                "stadiumName": "Molineux Stadium",
+                "capacity": 32050
+            }
+        }
+    },
+    {
+        "id":"West Ham",
+        "details": {
+            "fullname": "West Ham United F.C.",
+            "leaderboardName": "WHU",
+            "teamWebsite": "https://www.wolves.co.uk",
+            "stadium": {
+                "stadiumName": "London Stadium",
+                "capacity": 60000
+            }
+        }
+    },
+    {
+        "id":"Crystal Palace",
+        "details": {
+            "fullname": "Crystal Palace F.C.",
+            "leaderboardName": "CRY",
+            "teamWebsite": "https://www.cpfc.co.uk",
+            "stadium": {
+                "stadiumName": "Selhurst Park Stadium",
+                "capacity": 25486
+            }
+        }
+    },
+    {
+        "id":"Arsenal",
+        "details": {
+            "fullname": "Arsenal F.C.",
+            "leaderboardName": "ARS",
+            "teamWebsite": "https://www.arsenal.com",
+            "stadium": {
+                "stadiumName": "Emirates Stadium",
+                "capacity": 60704
+            }
+        }
+    },
+    {
+        "id":"Man Utd",
+        "details": {
+            "fullname": "Manchester United F.C.",
+            "leaderboardName": "MUN",
+            "teamWebsite": "https://www.manutd.com",
+            "stadium": {
+                "stadiumName": "Old Trafford",
+                "capacity": 74140
+            }
+        }
+    },
+    {
+        "id":"Man City",
+        "details": {
+            "fullname": "Manchester City F.C.",
+            "leaderboardName": "MCI",
+            "teamWebsite": "https://www.mancity.com",
+            "stadium": {
+                "stadiumName": "City of Manchester Stadium",
+                "capacity": 55017
+            }
+        }
+    },
+    {
+        "id":"Leeds",
+        "details": {
+            "fullname": "Leeds United F.C.",
+            "leaderboardName": "LEE",
+            "teamWebsite": "https://www.leedsunited.com",
+            "stadium": {
+                "stadiumName": "Elland Road",
+                "capacity": 37792
+            }
+        }
+    },
+    {
+        "id":"Brighton",        "details": {
+            "fullname": "Brighton & Hove Albion F.C.",
+            "leaderboardName": "BHA",
+            "teamWebsite": "https://www.brightonandhovealbion.com",
+            "stadium": {
+                "stadiumName": "Falmer Stadium",
+                "capacity": 30750
+            }
+        }
+    },
+    {
+        "id":"Burnley",
+        "details": {
+            "fullname": "Burnley F.C.",
+            "leaderboardName": "BUR",
+            "teamWebsite": "https://www.burnleyfootballclub.com",
+            "stadium": {
+                "stadiumName": "Turf Moor",
+                "capacity": 21994
+            }
+        }
+    },
+    {
+        "id":"Fulham",
+        "details": {
+            "fullname": "Fulham F.C.",
+            "leaderboardName": "FUL",
+            "teamWebsite": "https://www.fulhamfc.com",
+            "stadium": {
+                "stadiumName": "Craven Cottage",
+                "capacity": 19359
+            }
+        }
+    },
+    {
+        "id":"West Brom",
+        "details": {
+            "fullname": "West Bromwich Albion F.C.",
+            "leaderboardName": "WBA",
+            "teamWebsite": "https://www.wba.co.uk",
+            "stadium": {
+                "stadiumName": "The Hawthorns",
+                "capacity": 26668
+            }
+        }
+    },
+    {
+        "id":"Sheffield Utd",
+        "details": {
+            "fullname": "Sheffield United F.C.",
+            "leaderboardName": "SHU",
+            "teamWebsite": "https://www.sufc.co.uk",
+            "stadium": {
+                "stadiumName": "Bramall Lane",
+                "capacity": 32050
+            }
+        }
+    }
+]
