@@ -50,9 +50,9 @@
         }
     },
     {
-        "id": "Southamton",
+        "id": "Southampton",
         "details": {
-            "fullname": "Southamton F.C.",
+            "fullname": "Southampton F.C.",
             "leaderboardName": "SOU",
             "teamWebsite": "https://www.southamtonfc.com",
             "stadium": {

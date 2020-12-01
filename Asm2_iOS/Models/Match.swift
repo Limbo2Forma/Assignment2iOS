@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct Match: Hashable, Codable, Identifiable {
-    var id: Int
+    var id: UUID
     var round: Int
     var homeTeam: Team
     var awayTeam: Team

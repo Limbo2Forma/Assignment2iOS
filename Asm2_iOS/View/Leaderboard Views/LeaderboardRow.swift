@@ -15,18 +15,9 @@ struct LeaderboardRow: View {
             team.teamIcon
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(team.details.fullname)
+            Text(team.details.leaderboardName)
             Spacer()
+            Text(String(teamsDict[team]!.points))
         }
-    }
-}
-
-struct LandmarkRow_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            LeaderboardRow(team: teamsData[0])
-            LeaderboardRow(team: teamsData[1])
-        }
-        .previewLayout(.fixed(width: 300, height: 70))
     }
 }
