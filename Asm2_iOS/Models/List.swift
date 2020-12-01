@@ -12,6 +12,7 @@ let teamsData: [Team] = load("teams.json")
 let dateFormatter = DateFormatter()
 let matchesData: [Match] = parseCSV()
 var teamsDict = [Team: TeamStats]()
+var orderedTeams = orderPlacement()
 
 func updateStats(oldStats: TeamStats, teamScore: Int, opponentScore: Int) -> TeamStats {
     // update the goalFor and goalAgainst

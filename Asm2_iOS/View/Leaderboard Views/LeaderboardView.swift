@@ -8,11 +8,12 @@ A view showing a list of landmarks.
 import SwiftUI
 
 struct LeaderboardView: View {
+    
     var body: some View {
         NavigationView {
-            List(orderPlacement()) { team in
-                NavigationLink(destination: TeamDetailsView(team: team)) {
-                    LeaderboardRow(team: team)
+            List(orderedTeams.indices) { i in
+                NavigationLink(destination: TeamDetailsView(team: orderedTeams[i])) {
+                    LeaderboardRow(team: orderedTeams[i], position: i)
                 }
             }
             .navigationBarTitle(Text("Teams"))

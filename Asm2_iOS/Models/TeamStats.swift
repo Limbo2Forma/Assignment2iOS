@@ -1,14 +1,14 @@
 //
 //  TeamStats.swift
-//  Landmarks
+//  EPL
 //
-//  Created by Nam, Vu Hai on 11/30/20.
+//  Created by Nam, Vu Hai on 12/1/20.
 //  Copyright © 2020 Apple. All rights reserved.
 //
 
 import SwiftUI
 
-struct TeamStats {
+struct TeamStats: Hashable, Codable  {
     var win = 0
     var draw = 0
     var lost = 0

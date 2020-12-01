@@ -12,7 +12,7 @@
 		A660D7732576661000655099 /* TeamStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A660D7722576661000655099 /* TeamStats.swift */; };
 		A6D89D46257514650087611A /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = A6D89D45257514650087611A /* teams.json */; };
 		A6D89D4D257515B80087611A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = A6D89D4C257515B80087611A /* icons */; };
-		A6D89D5D25751C870087611A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5C25751C870087611A /* LandmarkList.swift */; };
+		A6D89D5D25751C870087611A /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5C25751C870087611A /* LeaderboardView.swift */; };
 		A6D89D6025751C9E0087611A /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */; };
 		A6D89D6325751D880087611A /* LeaderboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6225751D880087611A /* LeaderboardRow.swift */; };
 		A6D89D6725751DDD0087611A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6625751DDD0087611A /* MainView.swift */; };
@@ -46,7 +46,7 @@
 		A660D7722576661000655099 /* TeamStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStats.swift; sourceTree = "<group>"; };
 		A6D89D45257514650087611A /* teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
 		A6D89D4C257515B80087611A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
-		A6D89D5C25751C870087611A /* LandmarkList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		A6D89D5C25751C870087611A /* LeaderboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
 		A6D89D6225751D880087611A /* LeaderboardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardRow.swift; sourceTree = "<group>"; };
 		A6D89D6625751DDD0087611A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				A6D89D6225751D880087611A /* LeaderboardRow.swift */,
-				A6D89D5C25751C870087611A /* LandmarkList.swift */,
+				A6D89D5C25751C870087611A /* LeaderboardView.swift */,
 			);
 			path = "Leaderboard Views";
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 			files = (
 				A660D7732576661000655099 /* TeamStats.swift in Sources */,
 				B7394882229F28B900C47603 /* ReadData.swift in Sources */,
-				A6D89D5D25751C870087611A /* LandmarkList.swift in Sources */,
+				A6D89D5D25751C870087611A /* LeaderboardView.swift in Sources */,
 				A6D89D6725751DDD0087611A /* MainView.swift in Sources */,
 				A660D76F257652E000655099 /* List.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
