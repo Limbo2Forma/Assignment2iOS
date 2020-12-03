@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60190A92577617700BBDB43 /* ScheduleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60190A82577617700BBDB43 /* ScheduleRow.swift */; };
 		A660D76B2576522600655099 /* epl-2020-GMTStandardTime.csv in Resources */ = {isa = PBXBuildFile; fileRef = A660D76A2576522600655099 /* epl-2020-GMTStandardTime.csv */; };
-		A660D76F257652E000655099 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A660D76E257652E000655099 /* List.swift */; };
+		A660D76F257652E000655099 /* ProcessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A660D76E257652E000655099 /* ProcessData.swift */; };
 		A660D7732576661000655099 /* TeamStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = A660D7722576661000655099 /* TeamStats.swift */; };
 		A6D89D46257514650087611A /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = A6D89D45257514650087611A /* teams.json */; };
 		A6D89D4D257515B80087611A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = A6D89D4C257515B80087611A /* icons */; };
@@ -41,8 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60190A82577617700BBDB43 /* ScheduleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
 		A660D76A2576522600655099 /* epl-2020-GMTStandardTime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "epl-2020-GMTStandardTime.csv"; sourceTree = "<group>"; };
-		A660D76E257652E000655099 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		A660D76E257652E000655099 /* ProcessData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessData.swift; sourceTree = "<group>"; };
 		A660D7722576661000655099 /* TeamStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStats.swift; sourceTree = "<group>"; };
 		A6D89D45257514650087611A /* teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
 		A6D89D4C257515B80087611A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				A6D89D6B25751E320087611A /* ScheduleView.swift */,
+				A60190A82577617700BBDB43 /* ScheduleRow.swift */,
 			);
 			path = "Schedule Views";
 			sourceTree = "<group>";
@@ -182,7 +185,7 @@
 				B7394880229F28B900C47603 /* ReadData.swift */,
 				B739487F229F28B900C47603 /* Team.swift */,
 				A6D89D762575210F0087611A /* Match.swift */,
-				A660D76E257652E000655099 /* List.swift */,
+				A660D76E257652E000655099 /* ProcessData.swift */,
 				A660D7722576661000655099 /* TeamStats.swift */,
 			);
 			path = Models;
@@ -300,13 +303,14 @@
 				B7394882229F28B900C47603 /* ReadData.swift in Sources */,
 				A6D89D5D25751C870087611A /* LeaderboardView.swift in Sources */,
 				A6D89D6725751DDD0087611A /* MainView.swift in Sources */,
-				A660D76F257652E000655099 /* List.swift in Sources */,
+				A660D76F257652E000655099 /* ProcessData.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				A6D89D6C25751E320087611A /* ScheduleView.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B7394881229F28B900C47603 /* Team.swift in Sources */,
 				A6D89D772575210F0087611A /* Match.swift in Sources */,
+				A60190A92577617700BBDB43 /* ScheduleRow.swift in Sources */,
 				A6D89D6325751D880087611A /* LeaderboardRow.swift in Sources */,
 				A6D89D6025751C9E0087611A /* TeamDetailsView.swift in Sources */,
 			);

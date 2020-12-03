@@ -1,8 +1,21 @@
 import SwiftUI
 
 struct ScheduleView: View {
+    
     var body: some View {
-        Text(matchesData[0].homeTeam.details.fullname)
+        VStack {
+            Text(String(currentRound))
+                .font(.headline)
+            List{
+                ForEach(currentMatches, id: \.self) { section in
+                    Section(header: Text(section.key)) {
+                        ForEach(section.value, id: \.self) { m in
+                            ScheduleRow(match: m)
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

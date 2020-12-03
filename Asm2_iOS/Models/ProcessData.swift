@@ -14,6 +14,9 @@ let matchesData: [Match] = parseCSV()
 var teamsDict = [Team: TeamStats]()
 var orderedTeams = orderPlacement()
 
+var currentRound = getCurrrentRound()
+var currentMatches = groupByDate(round: getCurrrentRound())
+
 func updateStats(oldStats: TeamStats, teamScore: Int, opponentScore: Int) -> TeamStats {
     // update the goalFor and goalAgainst
     var newStats = oldStats
@@ -41,6 +44,9 @@ func parseMatch(matchStr: String) -> Match {
     matchStrCopy.removeLast()
     let info = matchStrCopy.components(separatedBy: ",")
     
+    let calendar = Calendar.current
+    let matchDate = calendar.date(byAdding: .hour, value: 7, to: dateFormatter.date(from:info[1])!)
+    
     var match = Match(
         id: UUID(),
         round: Int(info[0])!,
@@ -48,7 +54,7 @@ func parseMatch(matchStr: String) -> Match {
         awayTeam: teamsData.first(where: {$0.id == info[4]})!,
         homeScore: -1,
         awayScore: -1,
-        matchDate: dateFormatter.date(from:info[1])!
+        matchDate: matchDate!
     ) 
     
     if info[5].count > 2 {
@@ -96,3 +102,49 @@ func orderPlacement() -> Array<Team> {
     
     return sorted.map { $0.key}
 }
+
+func getCurrrentRound() -> Int {
+    let today = Date()
+    for match in matchesData {
+        if match.matchDate > today {
+            return match.round
+        }
+    }
+    return 38
+}
+
+struct MatchSection: Hashable {
+    var key: String
+    var value: [Match]
+}
+
+func groupByDate(round: Int) -> Array<MatchSection> {
+    
+    let matches = matchesData.filter { $0.round == round }
+    let dateToStr = DateFormatter()
+    dateToStr.dateFormat = "EEEE, MMM d, yyyy"
+    
+    var sections = [MatchSection]()
+    var section = MatchSection(key: "", value: [])
+    var prevStr = "1"
+    var str = ""
+    
+    for m in matches {
+        str = dateToStr.string(from: m.matchDate)
+        if str != prevStr {
+            sections.append(section)
+            section.key = str
+            section.value = [m]
+        }
+        else {
+            section.value.append(m)
+        }
+        prevStr = str
+    }
+    sections.removeFirst()
+    sections.append(section)
+    print(sections)
+    return sections
+}
+
+
