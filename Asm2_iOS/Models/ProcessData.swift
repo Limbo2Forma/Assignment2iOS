@@ -97,7 +97,7 @@ func orderPlacement() -> Array<Team> {
     // first convert to array so it can be sorted
     
     let sorted = teamsDict.sorted { (first, second) -> Bool in
-        return (first.value.points > second.value.points) || (first.value.points == second.value.points && first.value.goalDiff < second.value.goalDiff)
+        return (first.value.points > second.value.points) || (first.value.points == second.value.points && first.value.goalDiff > second.value.goalDiff)
     }
     
     return sorted.map { $0.key}

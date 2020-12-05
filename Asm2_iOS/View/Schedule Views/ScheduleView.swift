@@ -4,8 +4,18 @@ struct ScheduleView: View {
     
     var body: some View {
         VStack {
-            Text(String(currentRound))
-                .font(.headline)
+            HStack {
+                Spacer()
+                Text("Matchweek " + String(currentRound))
+                    .font(.title)
+                    .fontWeight(.bold)
+                Spacer()
+                Image("EPL").resizable()
+                    .frame(width: 120.0, height: 80.0)
+                Spacer()
+            }
+            .padding(.vertical, -20.0)
+            
             List{
                 ForEach(currentMatches, id: \.self) { section in
                     Section(header: Text(section.key)) {
