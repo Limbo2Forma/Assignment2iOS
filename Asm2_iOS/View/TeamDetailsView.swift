@@ -68,9 +68,12 @@ struct ShowStadiumInfo: View {
                 }
                 Text(stadium.description)
                     .multilineTextAlignment(.leading)
+                    .lineLimit(nil)
+                    .fixedSize(horizontal: false, vertical: true)
             }
         }
         .padding(.leading, 15.0)
+        .frame(maxHeight: .infinity)
     }
 }
 
