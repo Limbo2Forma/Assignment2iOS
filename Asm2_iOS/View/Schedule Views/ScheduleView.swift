@@ -14,7 +14,7 @@ struct ScheduleView: View {
                     .frame(width: 120.0, height: 80.0)
                 Spacer()
             }
-            .padding(.vertical, -20.0)
+            .padding(.vertical, -12.5)
             
             List{
                 ForEach(currentMatches, id: \.self) { section in

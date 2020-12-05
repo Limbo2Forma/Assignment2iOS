@@ -45,10 +45,8 @@ final class ImageStore {
     }
 
     static func loadImage(name: String) -> CGImage {
-        let name2 = "icons/" + name
-        
         guard
-            let url = Bundle.main.url(forResource: name2, withExtension: "png"),
+            let url = Bundle.main.url(forResource: name, withExtension: "png"),
             let imageSource = CGImageSourceCreateWithURL(url as NSURL, nil),
             let image = CGImageSourceCreateImageAtIndex(imageSource, 0, nil)
         else {

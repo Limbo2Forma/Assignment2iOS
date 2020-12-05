@@ -19,12 +19,12 @@
 		A6D89D6725751DDD0087611A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6625751DDD0087611A /* MainView.swift */; };
 		A6D89D6C25751E320087611A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6B25751E320087611A /* ScheduleView.swift */; };
 		A6D89D772575210F0087611A /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D762575210F0087611A /* Match.swift */; };
+		A6F5D38C257B795100896D80 /* stadiums in Resources */ = {isa = PBXBuildFile; fileRef = A6F5D38B257B795100896D80 /* stadiums */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486C229F194200C47603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B739486B229F194200C47603 /* Assets.xcassets */; };
 		B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B739486E229F194200C47603 /* Preview Assets.xcassets */; };
 		B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7394870229F194200C47603 /* LaunchScreen.storyboard */; };
-		B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394879229F1B3F00C47603 /* CircleImage.swift */; };
 		B7394881229F28B900C47603 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739487F229F28B900C47603 /* Team.swift */; };
 		B7394882229F28B900C47603 /* ReadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394880229F28B900C47603 /* ReadData.swift */; };
 /* End PBXBuildFile section */
@@ -42,6 +42,7 @@
 		A6D89D6625751DDD0087611A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A6D89D6B25751E320087611A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		A6D89D762575210F0087611A /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		A6F5D38B257B795100896D80 /* stadiums */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stadiums; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* EPL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EPL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7394865229F194000C47603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7394867229F194000C47603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +50,6 @@
 		B739486E229F194200C47603 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B7394871229F194200C47603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7394873229F194200C47603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7394879229F1B3F00C47603 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		B739487F229F28B900C47603 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		B7394880229F28B900C47603 /* ReadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +71,6 @@
 				A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */,
 				A6D89D6A25751E250087611A /* Schedule Views */,
 				A6D89D5825751C2C0087611A /* Leaderboard Views */,
-				B739487D229F1C0100C47603 /* Supporting Views */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,11 +112,11 @@
 		B7394864229F194000C47603 /* Asm2_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				B7394883229F291A00C47603 /* Resources */,
 				A6D89D5725751C1B0087611A /* View */,
 				B739487E229F282200C47603 /* Models */,
 				B7394865229F194000C47603 /* AppDelegate.swift */,
 				B7394867229F194000C47603 /* SceneDelegate.swift */,
-				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
 				B7394870229F194200C47603 /* LaunchScreen.storyboard */,
 				B7394873229F194200C47603 /* Info.plist */,
@@ -135,14 +134,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B739487D229F1C0100C47603 /* Supporting Views */ = {
-			isa = PBXGroup;
-			children = (
-				B7394879229F1B3F00C47603 /* CircleImage.swift */,
-			);
-			path = "Supporting Views";
-			sourceTree = "<group>";
-		};
 		B739487E229F282200C47603 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +149,7 @@
 		B7394883229F291A00C47603 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A6F5D38B257B795100896D80 /* stadiums */,
 				A660D76A2576522600655099 /* epl-2020-GMTStandardTime.csv */,
 				A6D89D4C257515B80087611A /* icons */,
 				A6D89D45257514650087611A /* teams.json */,
@@ -228,6 +220,7 @@
 				B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
 				A6D89D46257514650087611A /* teams.json in Resources */,
+				A6F5D38C257B795100896D80 /* stadiums in Resources */,
 				A660D76B2576522600655099 /* epl-2020-GMTStandardTime.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +239,6 @@
 				A660D76F257652E000655099 /* ProcessData.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				A6D89D6C25751E320087611A /* ScheduleView.swift in Sources */,
-				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B7394881229F28B900C47603 /* Team.swift in Sources */,
 				A6D89D772575210F0087611A /* Match.swift in Sources */,

@@ -9,19 +9,25 @@
             "teamWebsite": "https://www.liverpoolfc.com",
             "stadium": {
                 "stadiumName": "Anfield",
-                "capacity": 54074
+                "location": "Anfield, Liverpool, Merseyside",
+                "capacity": 54074,
+                "stadiumImage": "LIV",
+                "description": "Anfield is a football stadium in Anfield, Liverpool, Merseyside, England, which has a seating capacity of 53,394, making it the seventh largest football stadium in England. It has been the home of Liverpool Football Club since their formation in 1892. It was originally the home of Everton from 1884 to 1891, before they moved to Goodison Park after a dispute with the club president.\n The stadium has four stands: the Spion Kop, the Main Stand, the Sir Kenny Dalglish Stand and the Anfield Road End. The record attendance of 61,905 was set at a match between Liverpool and Wolverhampton Wanderers in 1952. The ground converted to an all-seater stadium in 1994 as a result of the Taylor Report, which reduced its capacity."
             }
         }
     },
     {
         "id": "Spurs",
         "details":{
-            "fullname": "Tottenham Hotspur",
+            "fullname": "Tottenham Hotspur F.C.",
             "leaderboardName": "TOT",
             "teamWebsite": "https://www.tottenhamhotspur.com",
             "stadium": {
                 "stadiumName": "Tottenham Hotspur Stadium",
-                "capacity": 62303
+                "location": "Tottenham, London",
+                "capacity": 62303,
+                "stadiumImage": "TOT",
+                "description": "The Tottenham Hotspur Stadium is the home of Tottenham Hotspur in north London, replacing the club's previous stadium, White Hart Lane. With a seating capacity of 62,303, it is the third-largest football stadium in England and the largest club stadium in London. It is designed to be a multi-purpose stadium and features the world's first dividing, retractable football pitch, which reveals a synthetic turf pitch underneath for NFL London Games, concerts and other events.\n The construction of the stadium was initiated as the centrepiece of the Northumberland Development Project, intended to be the catalyst for a 20-year regeneration plan for Tottenham. The project covers the site of the now demolished ground White Hart Lane and areas adjacent to it. The project was first conceived in 2007 and announced in 2008, but the plan was revised several times, and the construction of the stadium, beset by disputes and delays, did not commence until 2015. The stadium subsequently opened on 3 April 2019 with a ceremony before the first Premier League game held at the stadium."
             }
         }
     },
@@ -33,7 +39,10 @@
             "teamWebsite": "https://www.lcfc.com",
             "stadium": {
                 "stadiumName": "King Power Stadium",
-                "capacity": 32261
+                "location": "Filbert Way, Leicester",
+                "capacity": 32261,
+                "stadiumImage": "LEI",
+                "description": "The King Power Stadium (also known as Filbert Way or Leicester City Stadium due to UEFA sponsorship regulations and formerly known as the Walkers Stadium) is a football stadium in Leicester, England. It has been the home stadium of Premier League side Leicester City since 2002, and was the stage as the club were crowned Premier League champions in 2016. The all-seater stadium has a capacity of 32,261, the 20th largest football ground in England. It is named after travel retail group King Power, a company owned by the club's owners."
             }
         }
     },
@@ -45,7 +54,10 @@
             "teamWebsite": "https://www.chelseafc.com",
             "stadium": {
                 "stadiumName": "Stamford Bridge",
-                "capacity": 40834
+                "location": "Fulham, London",
+                "capacity": 40834,
+                "stadiumImage": "CHE",
+                "description": "Stamford Bridge (/ˈstæmfərd/) is a football stadium in Fulham, adjacent to the borough of Chelsea in South West London, commonly referred to as The Bridge. It is the home of Chelsea Football Club, which competes in the Premier League, the highest division of English football.\n The capacity of the stadium is 40,834, making it the ninth largest venue of the 2019–20 Premier League season. The club had plans to expand capacity to 63,000 by the 2023–24 season.\n Opened in 1877, the stadium was used by the London Athletic Club until 1905, when new owner Gus Mears founded Chelsea Football Club to occupy the ground; Chelsea have played their home games there ever since. It has undergone major changes over the years, most recently in the 1990s when it was renovated into a modern, all-seater stadium."
             }
         }
     },
@@ -57,7 +69,10 @@
             "teamWebsite": "https://www.southamtonfc.com",
             "stadium": {
                 "stadiumName": "St Mary's Stadium",
-                "capacity": 32384
+                "location": "Britannia Rd, Southampton",
+                "capacity": 32384,
+                "stadiumImage": "SOU",
+                "description": "St Mary's Stadium is an all-seater football stadium in Southampton, England, has been the home stadium of Premier League club Southampton F.C. since 2001. The stadium has a capacity of 32,384 and is currently the largest football stadium outside London in South England."
             }
         }
     },
@@ -69,7 +84,10 @@
             "teamWebsite": "https://www.evertonfc.com",
             "stadium": {
                 "stadiumName": "Goodison Park",
-                "capacity": 39414
+                "location": "Goodison Road, Walton, Liverpool",
+                "capacity": 39414,
+                "stadiumImage": "EVE",
+                "description": "Goodison Park is a football stadium in the Walton area of Liverpool, England. It has been the home stadium of Premier League club Everton FC since its completion in 1892. Located in a residential area 2 miles (3 km) north of Liverpool city centre, it has an all-seated capacity of 39,414.\n As Everton have remained in the top tier of English football since 1954, Goodison Park has hosted more top-flight games than any other stadium in England. Everton have only been outside the top division for four seasons, having been relegated in 1930 and 1951. The stadium has also been the venue for an FA Cup Final and numerous international fixtures, including a semi-final match in the 1966 World Cup, among others."
             }
         }
     },
@@ -81,7 +99,10 @@
             "teamWebsite": "https://www.avfc.co.uk",
             "stadium": {
                 "stadiumName": "Villa Park",
-                "capacity": 42719
+                "location": "Trinity Road, Birmingham",
+                "capacity": 42719,
+                "stadiumImage": "AVL",
+                "description": "Villa Park is a football stadium in Aston, Birmingham, England, with a seating capacity of 42,749. It has been the home of Aston Villa Football Club since 1897. The ground is less than a mile from both Witton and Aston railway stations and has hosted sixteen England internationals at senior level, the first in 1899 and the most recent in 2005. Villa Park has hosted 55 FA Cup semi-finals, more than any other stadium.\n In 1897, Aston Villa moved into the Aston Lower Grounds, a sports ground in a Victorian amusement park in the former grounds of Aston Hall, a Jacobean stately home. The stadium has gone through various stages of renovation and development, resulting in the current stand configuration of the Holte End, Trinity Road Stand, North Stand and Doug Ellis Stand. The club has initial planning permission to redevelop the North Stand, which will increase the capacity of Villa Park from 42,785 to about 50,000."
             }
         }
     },
@@ -93,7 +114,10 @@
             "teamWebsite": "https://www.nufc.co.uk",
             "stadium": {
                 "stadiumName": "St James' Park",
-                "capacity": 52305
+                "location": "Newcastle upon Tyne, Newcastle",
+                "capacity": 52305,
+                "stadiumImage": "NEW",
+                "description": "St James' Park is a football stadium in Newcastle upon Tyne, England. It is the home of Premier League club Newcastle United F.C. With a seating capacity of 52,305 seats, it is the eighth largest football stadium in England.\n St James' Park has been the home ground of Newcastle United since 1892 and has been used for football since 1880. Throughout its history, the desire for expansion has caused conflict with local residents and the local council. This has led to proposals to move at least twice in the late 1960s, and a controversial 1995 proposed move to nearby Leazes Park. Reluctance to move has led to the distinctive lop-sided appearance of the present-day stadium's asymmetrical stands."
             }
         }
     },
@@ -105,7 +129,10 @@
             "teamWebsite": "https://www.wolves.co.uk",
             "stadium": {
                 "stadiumName": "Molineux Stadium",
-                "capacity": 32050
+                "location": "Waterloo Road, Wolverhampton",
+                "capacity": 32050,
+                "stadiumImage": "WOL",
+                "description": "Molineux Stadium (/ˈmɒlɪnjuː/ MOL-i-new) in Wolverhampton, West Midlands, England, has been the home ground of Wolverhampton Wanderers Football Club since 1889. The first stadium built for use by a Football League club, it was one of the first British grounds to have floodlights installed and hosted some of the earliest European club games in the 1950s.\n At the time of its multi-million pound renovation in the early 1990s, Molineux was one of the biggest and most modern stadia in England, though it has since been eclipsed by other ground developments. The stadium has hosted England internationals and, more recently, England under-21 internationals, as well as the first UEFA Cup Final in 1972."
             }
         }
     },
@@ -117,7 +144,10 @@
             "teamWebsite": "https://www.wolves.co.uk",
             "stadium": {
                 "stadiumName": "London Stadium",
-                "capacity": 60000
+                "location": "Queen Elizabeth Olympic Park, Stratford, London",
+                "capacity": 60000,
+                "stadiumImage": "WHU",
+                "description": "London Stadium (formerly and also known as Olympic Stadium and the Stadium at Queen Elizabeth Olympic Park) is a multi-purpose outdoor stadium at Queen Elizabeth Olympic Park in the Stratford district of London. It was constructed specifically for the 2012 Summer Olympics and 2012 Summer Paralympics, serving as the track-and-field venue, and as the site of their opening and closing ceremonies. Following the Games, the stadium was renovated as a multi-purpose stadium and it now serves primarily as the home of West Ham United of the Premier League.\n Land preparation for the stadium began in mid-2007, with the official construction start date on 22 May 2008. The stadium held its first public event in March 2012, serving as the finish line for a celebrity run organised by the National Lottery. Holding 80,000 for the Olympics and the Paralympics, the stadium re-opened in July 2016 with 66,000 seats, but with capacity for football limited to 60,000 under the terms of the lease. The decision to make West Ham United the main tenants was controversial, with the initial tenancy process having to be rerun."
             }
         }
     },
@@ -129,7 +159,10 @@
             "teamWebsite": "https://www.cpfc.co.uk",
             "stadium": {
                 "stadiumName": "Selhurst Park Stadium",
-                "capacity": 25486
+                "location": "Selhurst, London",
+                "capacity": 25486,
+                "stadiumImage": "CRY",
+                "description": "Selhurst Park is an association football stadium located in the London suburb of Selhurst in the Borough of Croydon. It is the home ground of Crystal Palace Football Club playing in the Premier League. The stadium was designed by Archibald Leitch and opened in 1924. The stadium has hosted one international football match as well as games for the 1948 Summer Olympics. Part of the stadium incorporates a branch of Sainsbury's. The stadium was shared by Charlton Athletic from 1985 to 1991 and then by Wimbledon from 1991 to 2003."
             }
         }
     },
@@ -141,7 +174,10 @@
             "teamWebsite": "https://www.arsenal.com",
             "stadium": {
                 "stadiumName": "Emirates Stadium",
-                "capacity": 60704
+                "location": "75 Drayton Park, Highbury, London",
+                "capacity": 60704,
+                "stadiumImage": "ARS",
+                "description": "The Emirates Stadium (known as Ashburton Grove prior to sponsorship, and as Arsenal Stadium for UEFA competitions) is a football stadium in Highbury, England, and the home of Arsenal. With a capacity of 60,704 it is the fourth-largest football stadium in England after Wembley Stadium, Old Trafford and Tottenham Hotspur Stadium.\n In 1997, Arsenal explored the possibility of relocating to a new stadium, having been denied planning permission by Islington Council to expand its home stadium, Highbury. After considering various options (including purchasing Wembley Stadium), the club bought an industrial and waste disposal estate in Ashburton Grove in 2000. A year later, they received the council's approval to build a stadium on the site; manager Arsène Wenger described this as the \"biggest decision in Arsenal's history\" since the board appointed Herbert Chapman. Relocation began in 2002, but financial difficulties delayed work until February 2004. Emirates was later announced as the main sponsor for the stadium. The entire stadium project was completed in 2006 at a cost of £390 million. The club's former stadium was redeveloped as Highbury Square, an apartment complex."
             }
         }
     },
@@ -153,7 +189,10 @@
             "teamWebsite": "https://www.manutd.com",
             "stadium": {
                 "stadiumName": "Old Trafford",
-                "capacity": 74140
+                "location": "Sir Matt Busby Way, Old Trafford, Greater Manchester",
+                "capacity": 74140,
+                "stadiumImage": "MUN",
+                "description": "Old Trafford (/ˈtræfərd/) is a football stadium in Old Trafford, Greater Manchester, England, and the home of Manchester United. With a capacity of 74,140 seats, it is the largest club football stadium (and second-largest football stadium overall after Wembley Stadium) in the United Kingdom, and the eleventh-largest in Europe. It is about 0.5 miles (800 m) from Old Trafford Cricket Ground and the adjacent tram stop.\n Nicknamed \"The Theatre of Dreams\" by Bobby Charlton,[3] Old Trafford has been United's home ground since 1910, although from 1941 to 1949 the club shared Maine Road with local rivals Manchester City as a result of Second World War bomb damage. Old Trafford underwent several expansions in the 1990s and 2000s, including the addition of extra tiers to the North, West and East Stands, almost returning the stadium to its original capacity of 80,000. Future expansion is likely to involve the addition of a second tier to the South Stand, which would raise the capacity to around 88,000. The stadium's record attendance was recorded in 1939, when 76,962 spectators watched the FA Cup semi-final between Wolverhampton Wanderers and Grimsby Town."
             }
         }
     },
@@ -165,7 +204,10 @@
             "teamWebsite": "https://www.mancity.com",
             "stadium": {
                 "stadiumName": "City of Manchester Stadium",
-                "capacity": 55017
+                "location": "Clayton, Etihad Campus, Manchester",
+                "capacity": 55017,
+                "stadiumImage":"MCI",
+                "description": "The City of Manchester Stadium in Clayton, Manchester, currently known as the Etihad Stadium for sponsorship reasons, is the home of Manchester City with a domestic football capacity of 55,017.[1] This makes the stadium the sixth-largest in the Premier League and tenth-largest in the United Kingdom.\n Built to host the 2002 Commonwealth Games, the stadium has since staged the 2008 UEFA Cup Final, England football internationals,[6] rugby league matches, a boxing world title fight, the England rugby union team's last match of the 2015 Rugby World Cup and summer music concerts during the football off-season."
             }
         }
     },
@@ -177,18 +219,25 @@
             "teamWebsite": "https://www.leedsunited.com",
             "stadium": {
                 "stadiumName": "Elland Road",
-                "capacity": 37792
+                "location": "Elland Road, Beeston, Leeds",
+                "capacity": 37792,
+                "stadiumImage": "LEE",
+                "description": "Elland Road is a football stadium in Leeds, West Yorkshire, England, which has been the home of Leeds United since the club's formation in 1919. The stadium is the 14th largest football stadium in England. The ground has hosted FA Cup semi-final matches as a neutral venue, and England international fixtures, and was selected as one of eight Euro 96 venues. Elland Road was used by rugby league club Hunslet in the mid-1980s and hosted two matches of the 2015 Rugby World Cup."
             }
         }
     },
     {
-        "id":"Brighton",        "details": {
+        "id":"Brighton",
+        "details": {
             "fullname": "Brighton & Hove Albion F.C.",
             "leaderboardName": "BHA",
             "teamWebsite": "https://www.brightonandhovealbion.com",
             "stadium": {
                 "stadiumName": "Falmer Stadium",
-                "capacity": 30750
+                "location": "Falmer, Brighton, East Sussex",
+                "capacity": 30750,
+                "stadiumImage": "BHA",
+                "description": "Falmer Stadium, known for sponsorship purposes as the American Express Community Stadium, or colloquially as The Amex, is a football stadium in the village of Falmer, in the City of Brighton and Hove, Sussex, that serves as the home of Brighton & Hove Albion F.C.. The stadium was handed over from the developers to the club on 31 May 2011. The first competitive game played at the stadium was the 2010–11 season final of the Sussex Senior Cup between Brighton and Eastbourne Borough on 16 July 2011. The first league game was against Doncaster Rovers, who were also the opponents in the last game played at Brighton's former stadium, the Goldstone Ground, 14 years earlier."
             }
         }
     },
@@ -200,7 +249,10 @@
             "teamWebsite": "https://www.burnleyfootballclub.com",
             "stadium": {
                 "stadiumName": "Turf Moor",
-                "capacity": 21994
+                "location": "Burnley, Lancashire",
+                "capacity": 21994,
+                "stadiumImage": "BUR",
+                "description": "Turf Moor is a football stadium in Burnley, Lancashire, England, which has been the home ground of Burnley F.C. since 1883. This unbroken service makes Turf Moor the second-longest continuously used ground in English professional football. The stadium, which is situated on Harry Potts Way, named so after the club's longest serving manager, has an official capacity of 21,944.\n The ground originally consisted of just a pitch and the first grandstand was not built until 1885. Six years after this, the \"Stars\" Stand was erected and terracing was later added to the ends of the ground. After the Second World War, the stadium was redeveloped with all four stands being rebuilt. Turf Moor underwent further refurbishment during the 1990s when the Longside and the Bee Hole End terraces were replaced by all-seater stands following the recommendations of the Taylor Report. The ground comprises four stands: the Bob Lord Stand, the Cricket Field Stand, the James Hargreaves Stand and the Jimmy McIlroy Stand."
             }
         }
     },
@@ -212,7 +264,10 @@
             "teamWebsite": "https://www.fulhamfc.com",
             "stadium": {
                 "stadiumName": "Craven Cottage",
-                "capacity": 19359
+                "location": "Fulham, London",
+                "capacity": 19359,
+                "stadiumImage": "FUL",
+                "description": "Craven Cottage is a football stadium located in Fulham, London. It has been the home ground of Fulham F.C. since 1896. The ground's capacity was 25,700, all-seated, until the closure of the Riverside Stand for redevelopment in the close season of 2019, though the record attendance is 49,335, for a game against Millwall, 8 October 1938.Located next to Bishop's Park on the banks of the River Thames,'Craven Cottage' was originally a royal hunting lodge and has history dating back over 300 years."
             }
         }
     },
@@ -224,7 +279,10 @@
             "teamWebsite": "https://www.wba.co.uk",
             "stadium": {
                 "stadiumName": "The Hawthorns",
-                "capacity": 26668
+                "location": "Halfords Lane, West Bromwich",
+                "capacity": 26668,
+                "stadiumImage": "WBA",
+                "description": "The Hawthorns is an all-seater football stadium in West Bromwich, West Midlands, England, with a capacity of 26,688. It has been the home of West Bromwich Albion F.C. since 1900, when it became the sixth ground to be used by the club. The Hawthorns was the first Football League ground to be built in the 20th century, opening in September 1900 after construction work took only 4 months.[3] The official record attendance at The Hawthorns stands at 64,815, set in 1937."
             }
         }
     },
@@ -236,7 +294,10 @@
             "teamWebsite": "https://www.sufc.co.uk",
             "stadium": {
                 "stadiumName": "Bramall Lane",
-                "capacity": 32050
+                "location": "Highfield, Sheffield",
+                "capacity": 32050,
+                "stadiumImage": "SHU",
+                "description": "Bramall Lane is a football stadium in Sheffield, South Yorkshire, England. It is the home of Premier League club Sheffield United. As the largest stadium in Sheffield during the 19th century, it hosted most of the city's most significant matches including the final of the world's first football tournament, first floodlit match and several matches between the Sheffield and London Football Associations that led to the unification of their respective rules. It was also used by Sheffield Wednesday and Sheffield F.C. for major matches. It has been the home of Sheffield United since the club's establishment in 1889. It is the oldest major stadium in the world still to be hosting professional association football matches."
             }
         }
     }

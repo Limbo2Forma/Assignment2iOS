@@ -12,6 +12,11 @@ struct ScheduleRow: View {
     var match: Match
     var body: some View {
         VStack{
+            Text(String(dateFormatter.string(from: match.matchDate)).components(
+                separatedBy: " "
+            )[1])
+                .padding(.bottom, -10.0)
+                .font(.system(size: 18))
             HStack{
                 HStack {
                     Spacer()
@@ -36,8 +41,7 @@ struct ScheduleRow: View {
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
             }
-            Text(String(dateFormatter.string(from: match.matchDate)))
-                .font(.system(size: 20))
+            Text(match.homeTeam.details.stadium.stadiumName)
         }
     }
 }

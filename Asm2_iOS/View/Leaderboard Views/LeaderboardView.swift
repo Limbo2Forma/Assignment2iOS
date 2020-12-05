@@ -20,12 +20,26 @@ struct LeaderboardView: View {
                     }
                 }
             }
+            .navigationBarHidden(true)
         }
     }
 }
 
 struct LeaderboardHeader: View {
     var body: some View {
+        VStack {
+            HStack {
+                Spacer()
+                Text("Leaderboard")
+                    .font(.title)
+                    .fontWeight(.bold)
+                Spacer()
+                Image("EPL").resizable()
+                    .frame(width: 120.0, height: 80.0)
+                Spacer()
+            }
+            .padding(.top, -20.0)
+        }
         HStack() {
             HStack(alignment: .top) {
                 Text("POS")
@@ -60,11 +74,12 @@ struct LeaderboardHeader: View {
                     .fontWeight(.bold)
                     .frame(width: 21)
             }
+
             .frame(minWidth: 0, maxWidth: .infinity)
             .padding(.trailing, 5.0)
         }
         .frame(height: 30.0)
-        .background(Color.gray)
+        .background(Color(UIColor.systemGray5))
     }
 }
 
