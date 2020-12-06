@@ -8,13 +8,14 @@
   Created  date: 1/12/2020
   Last modified: 7/12/2020
   Acknowledgement:
+    The app baseline is from: https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
     Bottom tab view and tab item: https://www.hackingwithswift.com/quick-start/swiftui/adding-tabview-and-tabitem
     Get Appls SF Symbols: https://sfsymbols.com
  */
 
 import SwiftUI
 
-struct MainView: View {
+struct HomeView: View {
     var body: some View {
         TabView {
             ScheduleView()
@@ -31,8 +32,8 @@ struct MainView: View {
     }
 }
 
-struct MainView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView()
+        HomeView()
     }
 }

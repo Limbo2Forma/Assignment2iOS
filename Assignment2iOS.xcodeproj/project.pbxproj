@@ -16,7 +16,7 @@
 		A6D89D5D25751C870087611A /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5C25751C870087611A /* LeaderboardView.swift */; };
 		A6D89D6025751C9E0087611A /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */; };
 		A6D89D6325751D880087611A /* LeaderboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6225751D880087611A /* LeaderboardRow.swift */; };
-		A6D89D6725751DDD0087611A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6625751DDD0087611A /* MainView.swift */; };
+		A6D89D6725751DDD0087611A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6625751DDD0087611A /* HomeView.swift */; };
 		A6D89D6C25751E320087611A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6B25751E320087611A /* ScheduleView.swift */; };
 		A6D89D772575210F0087611A /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D762575210F0087611A /* Match.swift */; };
 		A6F5D38C257B795100896D80 /* stadiums in Resources */ = {isa = PBXBuildFile; fileRef = A6F5D38B257B795100896D80 /* stadiums */; };
@@ -39,7 +39,7 @@
 		A6D89D5C25751C870087611A /* LeaderboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
 		A6D89D6225751D880087611A /* LeaderboardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardRow.swift; sourceTree = "<group>"; };
-		A6D89D6625751DDD0087611A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A6D89D6625751DDD0087611A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A6D89D6B25751E320087611A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		A6D89D762575210F0087611A /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		A6F5D38B257B795100896D80 /* stadiums */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stadiums; sourceTree = "<group>"; };
@@ -70,18 +70,18 @@
 			children = (
 				A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */,
 				A6D89D6A25751E250087611A /* Schedule Views */,
-				A6D89D5825751C2C0087611A /* Leaderboard Views */,
+				A6D89D5825751C2C0087611A /* Standing Table Views */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		A6D89D5825751C2C0087611A /* Leaderboard Views */ = {
+		A6D89D5825751C2C0087611A /* Standing Table Views */ = {
 			isa = PBXGroup;
 			children = (
 				A6D89D6225751D880087611A /* LeaderboardRow.swift */,
 				A6D89D5C25751C870087611A /* LeaderboardView.swift */,
 			);
-			path = "Leaderboard Views";
+			path = "Standing Table Views";
 			sourceTree = "<group>";
 		};
 		A6D89D6A25751E250087611A /* Schedule Views */ = {
@@ -121,7 +121,7 @@
 				B7394870229F194200C47603 /* LaunchScreen.storyboard */,
 				B7394873229F194200C47603 /* Info.plist */,
 				B739486D229F194200C47603 /* Preview Content */,
-				A6D89D6625751DDD0087611A /* MainView.swift */,
+				A6D89D6625751DDD0087611A /* HomeView.swift */,
 			);
 			path = Asm2_iOS;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				A660D7732576661000655099 /* TeamStats.swift in Sources */,
 				B7394882229F28B900C47603 /* ReadData.swift in Sources */,
 				A6D89D5D25751C870087611A /* LeaderboardView.swift in Sources */,
-				A6D89D6725751DDD0087611A /* MainView.swift in Sources */,
+				A6D89D6725751DDD0087611A /* HomeView.swift in Sources */,
 				A660D76F257652E000655099 /* ProcessData.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				A6D89D6C25751E320087611A /* ScheduleView.swift in Sources */,
