@@ -14,7 +14,7 @@
 		A6D89D46257514650087611A /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = A6D89D45257514650087611A /* teams.json */; };
 		A6D89D4D257515B80087611A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = A6D89D4C257515B80087611A /* icons */; };
 		A6D89D5D25751C870087611A /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5C25751C870087611A /* LeaderboardView.swift */; };
-		A6D89D6025751C9E0087611A /* TeamDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */; };
+		A6D89D6025751C9E0087611A /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D5F25751C9E0087611A /* TeamView.swift */; };
 		A6D89D6325751D880087611A /* LeaderboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6225751D880087611A /* LeaderboardRow.swift */; };
 		A6D89D6725751DDD0087611A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6625751DDD0087611A /* HomeView.swift */; };
 		A6D89D6C25751E320087611A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D89D6B25751E320087611A /* ScheduleView.swift */; };
@@ -37,7 +37,7 @@
 		A6D89D45257514650087611A /* teams.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
 		A6D89D4C257515B80087611A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 		A6D89D5C25751C870087611A /* LeaderboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
-		A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamDetailsView.swift; sourceTree = "<group>"; };
+		A6D89D5F25751C9E0087611A /* TeamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
 		A6D89D6225751D880087611A /* LeaderboardRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardRow.swift; sourceTree = "<group>"; };
 		A6D89D6625751DDD0087611A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A6D89D6B25751E320087611A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		A6D89D5725751C1B0087611A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A6D89D5F25751C9E0087611A /* TeamDetailsView.swift */,
+				A6D89D5F25751C9E0087611A /* TeamView.swift */,
 				A6D89D6A25751E250087611A /* Schedule Views */,
 				A6D89D5825751C2C0087611A /* Standing Table Views */,
 			);
@@ -244,7 +244,7 @@
 				A6D89D772575210F0087611A /* Match.swift in Sources */,
 				A60190A92577617700BBDB43 /* ScheduleRow.swift in Sources */,
 				A6D89D6325751D880087611A /* LeaderboardRow.swift in Sources */,
-				A6D89D6025751C9E0087611A /* TeamDetailsView.swift in Sources */,
+				A6D89D6025751C9E0087611A /* TeamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

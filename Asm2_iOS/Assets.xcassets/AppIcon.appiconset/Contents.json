@@ -1,111 +1,115 @@
 {
   "images" : [
     {
-      "filename" : "landmark_app_icon_40x40.png",
+      "filename" : "rsz_ori.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "rsz_1ori.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "landmark_app_icon_58x58.png",
+      "filename" : "rsz_2ori.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "landmark_app_icon_87x87.png",
+      "filename" : "rsz_1rsz_2png-transparent-2016-17-premier-league-english-football-league-arsenal-f-c-la-liga-sports-league-arsenal-f-c-purple-violet-team.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "landmark_app_icon_80x80.png",
+      "filename" : "rsz_3ori.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "landmark_app_icon_120x120.png",
+      "filename" : "rsz_4ori.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "rsz_1rsz_png-transparent-2016-17-premier-league-english-football-league-arsenal-f-c-la-liga-sports-league-arsenal-f-c-purple-violet-team.png",
+      "filename" : "rsz_4ori-1.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "rsz_2png-transparent-2016-17-premier-league-english-football-league-arsenal-f-c-la-liga-sports-league-arsenal-f-c-purple-violet-team.png",
+      "filename" : "rsz_6ori.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
+      "filename" : "rsz_5ori.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "20x20"
     },
     {
-      "filename" : "landmark_app_icon_40x40-1.png",
+      "filename" : "rsz_ori-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
+      "filename" : "rsz_7ori.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "29x29"
     },
     {
-      "filename" : "landmark_app_icon_58x58-1.png",
+      "filename" : "rsz_2ori-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "landmark_app_icon_40x40-2.png",
+      "filename" : "rsz_ori-2.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "40x40"
     },
     {
-      "filename" : "landmark_app_icon_80x80-1.png",
+      "filename" : "rsz_3ori-1.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
+      "filename" : "rsz_8ori.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
-      "filename" : "landmark_app_icon_152x152.png",
+      "filename" : "rsz_10ori.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
-      "filename" : "landmark_app_icon_167x167.png",
+      "filename" : "rsz_11ori.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "landmark_app_icon_1024x1024.png",
+      "filename" : "rsz_premier-league3330resized-1.jpg",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
     },
     {
-      "filename" : "landmark_app_icon_48x48.png",
+      "filename" : "rsz_12ori.png",
       "idiom" : "watch",
       "role" : "notificationCenter",
       "scale" : "2x",
@@ -113,7 +117,7 @@
       "subtype" : "38mm"
     },
     {
-      "filename" : "landmark_app_icon_55x55.png",
+      "filename" : "rsz_13ori.png",
       "idiom" : "watch",
       "role" : "notificationCenter",
       "scale" : "2x",
@@ -121,21 +125,21 @@
       "subtype" : "42mm"
     },
     {
-      "filename" : "landmark_app_icon_58x58-2.png",
+      "filename" : "rsz_2ori-2.png",
       "idiom" : "watch",
       "role" : "companionSettings",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "landmark_app_icon_87x87-1.png",
+      "filename" : "rsz_14ori.png",
       "idiom" : "watch",
       "role" : "companionSettings",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "landmark_app_icon_80x80-2.png",
+      "filename" : "rsz_3ori-2.png",
       "idiom" : "watch",
       "role" : "appLauncher",
       "scale" : "2x",
@@ -143,7 +147,7 @@
       "subtype" : "38mm"
     },
     {
-      "filename" : "landmark_app_icon_88x88.png",
+      "filename" : "rsz_15ori.png",
       "idiom" : "watch",
       "role" : "appLauncher",
       "scale" : "2x",
@@ -151,7 +155,7 @@
       "subtype" : "40mm"
     },
     {
-      "filename" : "landmark_app_icon_100x100.png",
+      "filename" : "rsz_16ori.png",
       "idiom" : "watch",
       "role" : "appLauncher",
       "scale" : "2x",
@@ -159,7 +163,7 @@
       "subtype" : "44mm"
     },
     {
-      "filename" : "landmark_app_icon_172x172.png",
+      "filename" : "rsz_17ori.png",
       "idiom" : "watch",
       "role" : "quickLook",
       "scale" : "2x",
@@ -167,7 +171,7 @@
       "subtype" : "38mm"
     },
     {
-      "filename" : "landmark_app_icon_196x196.png",
+      "filename" : "rsz_18ori.png",
       "idiom" : "watch",
       "role" : "quickLook",
       "scale" : "2x",
@@ -175,7 +179,7 @@
       "subtype" : "42mm"
     },
     {
-      "filename" : "landmark_app_icon_216x216.png",
+      "filename" : "rsz_19ori.png",
       "idiom" : "watch",
       "role" : "quickLook",
       "scale" : "2x",
@@ -183,7 +187,7 @@
       "subtype" : "44mm"
     },
     {
-      "filename" : "landmark_app_icon_1024x1024-1.png",
+      "filename" : "rsz_premier-league3330resized.jpg",
       "idiom" : "watch-marketing",
       "scale" : "1x",
       "size" : "1024x1024"

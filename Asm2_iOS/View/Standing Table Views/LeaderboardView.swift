@@ -21,7 +21,7 @@ struct LeaderboardView: View {
                 LeaderboardHeader()
                 // Scrollview with hiddent indicators
                 ScrollView(showsIndicators: false) {
-                    ForEach(orderedTeams.indices) { i in NavigationLink(destination: TeamDetailsView(team: orderedTeams[i])) {
+                    ForEach(orderedTeams.indices) { i in NavigationLink(destination: TeamView(team: orderedTeams[i])) {
                             LeaderboardRow(team: orderedTeams[i], position: i)
                         }
                     }
