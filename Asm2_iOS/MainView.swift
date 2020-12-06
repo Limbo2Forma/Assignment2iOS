@@ -1,10 +1,16 @@
-//
-//  SwiftUIView.swift
-//  Landmarks
-//
-//  Created by Nam, Vu Hai on 11/30/20.
-//  Copyright © 2020 Apple. All rights reserved.
-//
+/*
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2020C
+  Assessment: Assignment 2
+  Author: Vu Hai Nam
+  ID: s3694383
+  Created  date: 1/12/2020
+  Last modified: 7/12/2020
+  Acknowledgement:
+    Bottom tab view and tab item: https://www.hackingwithswift.com/quick-start/swiftui/adding-tabview-and-tabitem
+    Get Appls SF Symbols: https://sfsymbols.com
+ */
 
 import SwiftUI
 

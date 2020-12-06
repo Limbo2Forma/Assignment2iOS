@@ -1,8 +1,14 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-The model for an individual landmark.
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2020C
+  Assessment: Assignment 2
+  Author: Vu Hai Nam
+  ID: s3694383
+  Created  date: 1/12/2020
+  Last modified: 7/12/2020
+  Acknowledgement:
+    Read json and images: https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
 */
 
 import SwiftUI

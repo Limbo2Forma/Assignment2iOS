@@ -1,8 +1,15 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A single row to be displayed in a list of landmarks.
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2020C
+  Assessment: Assignment 2
+  Author: Vu Hai Nam
+  ID: s3694383
+  Created  date: 1/12/2020
+  Last modified: 7/12/2020
+  Acknowledgement:
+    Spacer tutorial: https://www.ioscreator.com/tutorials/swiftui-spacer-tutorial
+    Set system font size Swift: https://developer.apple.com/documentation/uikit/uifont/1619027-systemfont
 */
 
 import SwiftUI
@@ -53,7 +60,9 @@ struct LeaderboardRow: View {
             .padding(.all, 5.0)
             .accentColor(Color.black)
             Divider()
+                .foregroundColor(Color.black)
         }
+        .background(Color.clear)
     }
 }
 

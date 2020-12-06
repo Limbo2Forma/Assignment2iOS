@@ -1,13 +1,21 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-Helpers for loading images and data.
-*/
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2020C
+  Assessment: Assignment 2
+  Author: Vu Hai Nam
+  ID: s3694383
+  Created  date: 1/12/2020
+  Last modified: 7/12/2020
+  Acknowledgement:
+    Read json and images: https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
+    Download from Url: https://stackoverflow.com/questions/37978773/swift-how-to-download-synchronously
+ */
 
 import UIKit
 import SwiftUI
 
+// function to decode from the json file in main bundle
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
     
@@ -23,6 +31,7 @@ func load<T: Decodable>(_ filename: String) -> T {
     }
     
     do {
+        // init json encoder
         let decoder = JSONDecoder()
         return try decoder.decode(T.self, from: data)
     } catch {
@@ -30,6 +39,7 @@ func load<T: Decodable>(_ filename: String) -> T {
     }
 }
 
+// class to get the image from the image name in main bundle
 final class ImageStore {
     typealias _ImageDictionary = [String: CGImage]
     fileprivate var images: _ImageDictionary = [:]
@@ -43,7 +53,8 @@ final class ImageStore {
         
         return Image(images.values[index], scale: CGFloat(ImageStore.scale), label: Text(name))
     }
-
+    
+    // load the image from the name
     static func loadImage(name: String) -> CGImage {
         guard
             let url = Bundle.main.url(forResource: name, withExtension: "png"),
@@ -55,6 +66,7 @@ final class ImageStore {
         return image
     }
     
+    // load a default image in case the desired image cannot be loaded
     fileprivate func _guaranteeImage(name: String) -> _ImageDictionary.Index {
         if let index = images.index(forKey: name) { return index }
         
@@ -63,6 +75,7 @@ final class ImageStore {
     }
 }
 
+// download the csv file and store in main bundle
 func downloadFromUrl(url: URL, path: URL) -> Void {
     if let downloadedData = NSData(contentsOf: url) {
         if downloadedData.write(to: path, atomically: true) {

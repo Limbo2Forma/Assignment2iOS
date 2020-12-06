@@ -1,8 +1,14 @@
 /*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A view showing a list of landmarks.
+  RMIT University Vietnam
+  Course: COSC2659 iOS Development
+  Semester: 2020C
+  Assessment: Assignment 2
+  Author: Vu Hai Nam
+  ID: s3694383
+  Created  date: 1/12/2020
+  Last modified: 7/12/2020
+  Acknowledgement:
+    NavigationView in SwiftUI: https://www.hackingwithswift.com/articles/216/complete-guide-to-navigationview-in-swiftui
 */
 
 import SwiftUI
@@ -13,6 +19,7 @@ struct LeaderboardView: View {
         NavigationView {
             VStack(spacing: 0){
                 LeaderboardHeader()
+                // Scrollview with hiddent indicators
                 ScrollView(showsIndicators: false) {
                     ForEach(orderedTeams.indices) { i in NavigationLink(destination: TeamDetailsView(team: orderedTeams[i])) {
                             LeaderboardRow(team: orderedTeams[i], position: i)
@@ -20,6 +27,7 @@ struct LeaderboardView: View {
                     }
                 }
             }
+            .background(Image("bg1").resizable().opacity(0.07))
             .navigationBarHidden(true)
         }
     }
@@ -34,12 +42,14 @@ struct LeaderboardHeader: View {
                     .font(.title)
                     .fontWeight(.bold)
                 Spacer()
-                Image("EPL").resizable()
+                Image("EPL")
+                    .resizable()
                     .frame(width: 120.0, height: 80.0)
                 Spacer()
             }
             .padding(.top, -20.0)
         }
+        .background(Color.clear)
         HStack() {
             HStack(alignment: .top) {
                 Text("POS")
@@ -79,7 +89,7 @@ struct LeaderboardHeader: View {
             .padding(.trailing, 5.0)
         }
         .frame(height: 30.0)
-        .background(Color(UIColor.systemGray5))
+        .background(Color(UIColor.systemGray4))
     }
 }
 
